@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url(../fonts/Dosis-Regular.ttf);
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: #f1d3fd;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.tabuada{
+    margin: 20px auto;
+    background-color: #8c57ba ;
+    border-radius: 10px;
+    padding: 35px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background-color: rgb(197, 155, 225);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#link{   
+    display: inline-block;
+    background-color: rgb(197, 155, 225);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button:hover{
+    background-color: rgb(89, 48, 124);
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+}
+
+.linha{
+    border: 1px solid #8c62b1;
+    padding: 8px;
+    margin: 2px 0;
+    background-color: #d19dea;
+    text-align: center;
+}
